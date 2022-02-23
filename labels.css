@@ -173,12 +173,12 @@ body.sl-regular .reveal:not(.overview),
 }
 
 .reveal .sl-title h3 {
-  font-size: 24px;
+  font-size: 240px;
 }
 
 .reveal .slides > section,
 .reveal .slides > section > section {
-  font-size: 24px !important;
+  font-size: 240px !important;
   line-height: 1.5;
 }
 
