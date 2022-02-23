@@ -1,0 +1,229 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/white.css');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+#sl-title-page-logos {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 1em;
+  background-image: url(https://trilogisoftware.com/img/a2g_logo_24.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.sl-image-title-logo {
+  box-shadow: none !important;
+  margin-bottom: 1.5em;
+  height: 24px;
+}
+
+body.sl-title .reveal:not(.overview),
+body.sl-section .reveal:not(.overview),
+body.sl-break .reveal:not(.overview) {
+  opacity: 1.0 !important;
+}
+
+body.sl-title .reveal:not(.overview),
+.reveal.overview .sl-title {
+  background-color: #fff;
+}
+
+body.sl-section .reveal:not(.overview),
+.reveal.overview .sl-section {
+  background-color: #EC9F05;
+}
+
+body.sl-break .reveal:not(.overview),
+.reveal.overview .sl-break {
+  background-color: #464677;
+}
+
+body.sl-regular .reveal:not(.overview),
+.reveal.overview .sl-regular {
+  background-color: #fff;
+}
+
+.sl-center .sl-default-head,
+.sl-center .sl-default-description {
+  text-align: inherit;
+}
+
+.sl-split .sl-default-head,
+.sl-split .sl-default-description,
+.sl-split .sl-default-subtasks {
+  width: 45%;
+  margin-left: 0;
+}
+
+.sl-image-outer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+}
+
+.sl-default-image {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.sl-image-outer .sl-default-image {
+  margin-top: 0;
+}
+
+.reveal .sl-title h1,
+.reveal .sl-section h2,
+.reveal .sl-break h2,
+.reveal .sl-title h3,
+.reveal .sl-section h3,
+.reveal .sl-break h3,
+.reveal .sl-section h4 {
+  text-align: left;
+}
+
+.reveal .sl-section h2,
+.reveal .sl-break h2,
+.reveal .sl-section h3,
+.reveal .sl-break h3,
+.reveal .sl-section h4 {
+  color: #fff;
+}
+
+.reveal .pdf-page .sl-section h2,
+.reveal .pdf-page .sl-break h2,
+.reveal .pdf-page .sl-section h3,
+.reveal .pdf-page .sl-break h3,
+.reveal .pdf-page .sl-section h4 {
+  color: #000;
+}
+
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6,
+#slide-header,
+#slide-footer {
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.reveal h1,
+.reveal h2 {
+  font-size: 250px;
+}
+
+.reveal .sl-title h1,
+.reveal .sl-title h2,
+.reveal .sl-regular h1,
+.reveal .sl-regular h2 {
+  color: #192029;
+}
+
+.sl-default-slide.sl-regular {
+  height: -webkit-fill-available;
+  margin-top: 2em;
+}
+
+.sl-default-slide.sl-section .sl-default-subtitle {
+  display: block !important;
+}
+
+#slide-header {
+  border-bottom: 1px solid #D2D6D9;
+}
+
+#slide-header-left-title {
+  padding: 1em;
+}
+
+#slide-footer {
+  height: 5.5em;
+  border-top: 1px solid #D2D6D9;
+}
+
+#slide-footer-left {
+  height: 40px;
+  width: 100%;
+  padding: 0 0 1em 1em;
+  background-image: url(https://trilogisoftware.com/img/a2g_logo_24.png);
+  background-repeat: no-repeat;
+  background-position: left 1em bottom 1.7em;
+}
+
+#slide-footer-left:after {
+  content: 'Asana2Go';
+  white-space: pre;
+  left: 50px;
+  bottom: 2em;
+  position: absolute;
+  font-size: 14px;
+}
+
+.reveal .sl-title h3,
+.reveal .slides > section,
+.reveal .slides > section > section,
+#slide-header,
+#slide-footer {
+  color: #24272A;
+}
+
+.reveal .sl-title h3 {
+  font-size: 24px;
+}
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+  font-size: 24px !important;
+  line-height: 1.5;
+}
+
+#slide-header,
+#slide-footer {
+  font-size: 14px !important;
+  line-height: 1.15;
+}
+
+.reveal .controls {
+  bottom: .5em;
+}
+
+.sl-default-head {
+  text-align: left;
+}
+
+.reveal:not(.overview) .sl-regular .sl-default-head {
+  font-size: 1em !important;
+}
+
+.sl-default-description {
+  line-height: 1.3;
+}
+
+.sl-default-subhead {
+  font-weight: normal;
+  line-height: 1.3;
+  padding-bottom: 14px;
+}
+
+.sl-default-subtasks > li:not(.sl-default-subhead) {
+  list-style-type: none;
+  background-image: url(https://trilogisoftware.com/img/check_incomplete.png);
+  background-repeat: no-repeat;
+  background-position: left top 9px;
+  background-size: 16px;
+  line-height: 1.3;
+  padding-left: 35px;
+  padding-bottom: 14px;
+  margin-left: 0; /* These li's w/o bullets are different than default Reveal li's that do use bullets */
+}
+
+@media print {
+  .print-pdf .reveal h1 {
+    color: #000 !important;
+  }
+}
