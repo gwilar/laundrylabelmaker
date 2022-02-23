@@ -173,18 +173,18 @@ body.sl-regular .reveal:not(.overview),
 }
 
 .reveal .sl-title h3 {
-  font-size: 240px;
+  font-size: 2400px;
 }
 
 .reveal .slides > section,
 .reveal .slides > section > section {
-  font-size: 240px !important;
+  font-size: 2400px !important;
   line-height: 1.5;
 }
 
 #slide-header,
 #slide-footer {
-  font-size: 14px !important;
+  font-size: 1400px !important;
   line-height: 1.15;
 }
 
@@ -197,7 +197,7 @@ body.sl-regular .reveal:not(.overview),
 }
 
 .reveal:not(.overview) .sl-regular .sl-default-head {
-  font-size: 1em !important;
+  font-size: 10em !important;
 }
 
 .sl-default-description {
